@@ -20,7 +20,7 @@ Beware! Do not use the "npm run install" command. We use a library (IoHook), we 
 
 The folder contains the web interface; it talks to the server via sockets
 
-# server
+# Server
 
 This is a server :) 
 
